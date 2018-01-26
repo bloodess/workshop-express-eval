@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.listen(port, function() {
 
     // start server here
-    console.log(chalk.green('Hello web server'));
+    console.log(chalk.green('Hello web server : ' + port));
 
 });
 
